@@ -7,7 +7,12 @@
 #name {
   height: 200px;
   padding-left: 5px;
+
+
+
 }
+
+
 
 
 #student {
@@ -17,6 +22,30 @@
   padding-left: 5px;
 
 }
+
+/* Navigation */
+
+nav{
+  
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+
+
+
+
+.btn {
+  text-decoration: none;
+  background: rgba(83, 119, 122, 1);
+  color: red;
+  text-align: center;
+}
+
+
 
 body {
     font-family: Century Gothic, sans-serif;
@@ -35,13 +64,14 @@ body {
 /*animation*/
 
   position: relative;
-  -webkit-animation: mymove 3s infinite; 
-  animation: mymove 6s infinite;
+/*  -webkit-animation: mymove 3s infinite;*/ 
+  animation: ciao 6s infinite;
   animation-direction: alternate;
+  animation-timing-function: ease-in-out;
 
 }
 
-@keyframes mymove {
+@keyframes ciao {
   from {left: -500px;}
   to {left: 500px;}
 }
@@ -87,3 +117,28 @@ footer {
   text-align: right;
   margin-right: 5px;
 }
+
+
+#copyright {
+  text-align: center;
+}
+
+
+
+
+
+
+/*color animation*/
+
+/*    animation-name: name;
+  animation: name 8s infinite;
+  animation-direction: alternate;
+
+  @keyframes name {
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}
+
+*/
