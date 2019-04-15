@@ -6,11 +6,20 @@
 
 #name {
   height: 200px;
+  padding-left: 5px;
 }
 
 
+#student {
+
+  margin-top: -40px;
+  background-color: rgba(83, 119, 122, 1);
+  padding-left: 5px;
+
+}
+
 body {
-  font-family: 'Arial', sans-serif;
+    font-family: Century Gothic, sans-serif;
   background-color: rgba(0,153,153, 0.2);
 }
 
@@ -20,8 +29,21 @@ body {
 
 .ciao{
   font-size: 35px;
-  text-align: center;
   text-shadow: 2px 6px 6px #150;
+
+
+/*animation*/
+
+  position: relative;
+  -webkit-animation: mymove 3s infinite; 
+  animation: mymove 6s infinite;
+  animation-direction: alternate;
+
+}
+
+@keyframes mymove {
+  from {left: -500px;}
+  to {left: 500px;}
 }
 
 a {
@@ -31,9 +53,11 @@ a:hover {
   text-decoration: none;
 }
 h1, h2 {
-  font-family: 'Georgia', cursive;
+  font-family: Century Gothic, sans-serif;
   background-color: rgba(122, 187, 194, 02);
   color: white;
+padding-left: 5px;
+padding-right: 5px
 }
 h2 {
   font-size: 30px;
@@ -57,12 +81,9 @@ li{
     margin: auto;
 }
 
-#student {
-  margin-top: -40px;
-  background-color: rgba(83, 119, 122, 1);
-}
 
 footer {
+  background-color: rgba(83, 119, 122, 0.7);
   text-align: right;
   margin-right: 5px;
 }
