@@ -40,9 +40,10 @@ nav{
 
 .btn {
   text-decoration: none;
-  background: rgba(83, 119, 122, 1);
-  color: red;
+  background: white;
+  color: rgba(83, 119, 122, 1);
   text-align: center;
+  float: right;
 }
 
 
